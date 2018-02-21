@@ -1,0 +1,68 @@
+// Just an example that this Boilerplate supports SCSS
+$color: #262828;
+
+body {
+  font-family: 'Lato', sans-serif !important;
+  color: $color;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color: #00b4d2
+}
+
+.textAreaField{
+  resize: none;
+  height: 300px !important;
+  width: 60%
+}
+
+.btnClass,{
+  background-color: #00b4d2;
+  color: white;
+}
+
+.bodyContainer{
+  position: relative;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.appHeader{
+  background-color: #00b4d2;
+  border: #00b4d2;
+  border-radius: 0px;
+  a {
+    color:white !important;
+  }
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+ }
+
+.brandNavbar{
+position: relative;
+color:white !important;
+}
+
+.pageTitle{
+  color: #00b4d2;
+}
+
+footer.footer {
+  position: fixed;
+  bottom: 0;
+  left:0;
+  right:0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer{
+  padding: 0.55em 0.75em 0.75em 0.75em;
+  text-align: center;
+  background-color: #f4f4f4;
+  box-shadow: 0 0 2px 2px #dbdbdb;
+}

@@ -1,0 +1,8 @@
+--recursive
+--colors
+--reporter spec
+--inline-diffs   
+--growl
+--require jsdom-global/register
+--require test/unit/setup.js
+test/unit/reducers/*.test.{js,jsx}
